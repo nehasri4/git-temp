@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable with Lunch Row</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            font-size: 14px;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .lunch-row {
+            background-color: #e0e0e0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Timetable</h1>
+    <table>
+        <caption>Weekly Class Timetable</caption>
+        <thead>
+            <tr>
+                <th>Period</th>
+                <th>1<br>9:00 - 9:50 AM</th>
+                <th>2<br>9:50 - 10:40 AM</th>
+                <th>3<br>10:40 - 11:30 AM</th>
+                <th>4<br>11:30 - 12:20 PM</th>
+                <th>Lunch<br>12:20 - 1:40 PM</th>
+                <th>5<br>1:40 - 2:30 PM</th>
+                <th>6<br>2:30 - 3:20 PM</th>
+                <th>7<br>3:20 - 4:10 PM</th>
+                <th>8<br>4:10 - 5:00 PM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MON</td>
+                <td>P&S</td>
+                <td>OS</td>
+                <td>SE</td>
+                <td>ADSAA</td>
+                <td class="lunch-row">LUNCH</td>
+                <td>MEFA</td>
+                <td>II CSE D - DTAI</td>
+                <td>OS</td>
+                <td>CRT / Hons / Minor</td>
+            </tr>
+            <tr>
+                <td>TUE</td>
+                <td>OS</td>
+                <td>H CSE D - ADSAA LAB</td>
+                <td>SE</td>
+                <td>P&S</td>
+                <td class="lunch-row">LUNCH</td>
+                <td>SI</td>
+                <td>MEFA</td>
+                <td>II CSE D - DTAI</td>
+                <td>CRT / Hons / Minor</td>
+            </tr>
+            <tr>
+                <td>WED</td>
+                <td>MEFA</td>
+                <td>SE</td>
+                <td>P&S</td>
+                <td>OS</td>
+                <td class="lunch-row">LUNCH</td>
+                <td>ADSAA</td>
+                <td>MEFA</td>
+                <td>OS</td>
+                <td>II CSE D - PSD</td>
+            </tr>
+            <tr>
+                <td>THU</td>
+                <td>ADSAA</td>
+                <td>OS</td>
+                <td>SE</td>
+                <td>P&S</td>
+                <td class="lunch-row">LUNCH</td>
+                <td>MEFA</td>
+                <td>ADSAA</td>
+                <td>MEFA</td>
+                <td>CRT / Hons / Minor</td>
+            </tr>
+            <tr>
+                <td>FRI</td>
+                <td>FSD</td>
+                <td>ADSAA</td>
+                <td>MEFA</td>
+                <td>OS</td>
+                <td class="lunch-row">LUNCH</td>
+                <td>ADSAA</td>
+                <td>P&S</td>
+                <td>OS</td>
+                <td>MEFA</td>
+            </tr>
+            <tr>
+                <td>SAT</td>
+                <td>SE</td>
+                <td>II CSE D - PSD</td>
+                <td>OS</td>
+                <td>ADSAA</td>
+                <td class="lunch-row">LUNCH</td>
+                <td>MEFA</td>
+                <td>OS</td>
+                <td>ADSAA</td>
+                <td>CRT / Hons / Minor</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
